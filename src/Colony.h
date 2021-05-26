@@ -1,3 +1,4 @@
+#pragma once
 #include "Ant.h"
 class Ant;
 

@@ -1,3 +1,4 @@
+#pragma once
 #include "Field.h"
 #include "Colony.h"
 class Colony;

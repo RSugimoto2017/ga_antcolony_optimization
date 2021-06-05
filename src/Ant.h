@@ -1,9 +1,11 @@
-#pragma once
-#include "Field.h"
-#include "Colony.h"
+//#pragma once
+//#include "Field.h"
+//#include "Colony.h"
+
 class Colony;
 
 //定数の定義
+//ここを変えてみると面白い
 #define REPEAT_NUM 1000 //繰り返し数
 #define ANT_NUM 100     //アリの数
 #define PHERO_Q 10      //一回の巡回で分泌するフェロモン量

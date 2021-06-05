@@ -1,4 +1,5 @@
 #include "Colony.h"
+#include "Ant.h"
 
 int main()
 {
@@ -6,7 +7,8 @@ int main()
   Colony *colony;
   srand((unsigned int)time(NULL));
 
-  colony = new Colony("sampledata.csv");
+  char tmpname[] = "sampledata.csv";
+  colony = new Colony(tmpname);
   for (i = 1; i < REPEAT_NUM; i++)
   {
     colony->selectRoute();

@@ -1,7 +1,8 @@
 #include "Colony.h"
+#include "Ant.h"
 
 //コンストラクタ
-//filename: データセットのファイル名
+//fileName: データセットのファイル名
 Colony::Colony(char *fileName)
 {
   int i;

@@ -1,11 +1,13 @@
-#pragma once
-#include "Ant.h"
+//#pragma once
+//#include "Ant.h"
+#include "Field.h"
+
 class Ant;
 
 class Colony
 {
 public:
-  Colony(char *filename);
+  Colony(char *fileName);
   ~Colony();
   void selectRoute();    //経路の選択
   void renewPheromone(); //フェロモン量を更新

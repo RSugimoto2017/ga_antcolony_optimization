@@ -12,6 +12,7 @@ public:
   void selectRoute();    //経路の選択
   void renewPheromone(); //フェロモン量を更新
   void printPheromone(); //フェロモン量を表示
+  void printRoute();
 
   Field *field;  //採餌行動の場
   Ant **ant;     //コロニーのメンバ

@@ -15,6 +15,7 @@ int main()
     colony->renewPheromone();
   }
   colony->printPheromone();
+  colony->printRoute();
   delete colony;
 
   return 0;

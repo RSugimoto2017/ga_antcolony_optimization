@@ -68,7 +68,7 @@ Field::Field(char *fileName)
   for (i = 0; i < nodeNum; i++)
   {
     pheromone[i] = new double[nodeNum];
-    for (j = 0; i < nodeNum; j++)
+    for (j = 0; j < nodeNum; j++)
     {
       pheromone[i][j] = 0.0;
     }

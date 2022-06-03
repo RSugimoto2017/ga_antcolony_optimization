@@ -1,4 +1,5 @@
 #include "Ant.h"
+#include "Colony.h"
 
 //コンストラクタ
 //argColony:属しているコロニー

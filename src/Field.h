@@ -10,7 +10,7 @@
 class Field
 {
 public:
-  Field(char *filename);
+  Field(char *fileName);
   ~Field();
 
   int nodeNum;        //ノード数
